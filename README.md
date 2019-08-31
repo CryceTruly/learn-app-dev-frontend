@@ -1,5 +1,5 @@
 ### About
--> Frontend repository for the Makethatapp community
+> Frontend repository for the Makethatapp community
 
 
 
