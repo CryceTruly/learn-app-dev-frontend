@@ -16,7 +16,7 @@ cache:
 install:
   - yarn install
 script:
-  - $(yarn bin)/cypress run --record
+  - $(yarn bin)/cypress run
 
 
 after_script:
