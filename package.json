@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "e2e":"cypress open",
+    "e2e": "cypress open",
     "start": "serve ./out"
   },
   "dependencies": {
+    "coveralls": "^3.0.6",
     "cypress": "^3.4.1",
     "next": "9.0.5",
     "react": "16.9.0",
