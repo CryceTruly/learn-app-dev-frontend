@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+    "e2e":"cypress open",
     "start": "serve ./out"
   },
   "dependencies": {
+    "cypress": "^3.4.1",
     "next": "9.0.5",
     "react": "16.9.0",
     "react-dom": "16.9.0"
