@@ -15,3 +15,8 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 }
+
+// cypress/plugins/index.js
+module.exports = (on, config) => {
+  on('task', require('@cypress/code-coverage/task'))
+}
