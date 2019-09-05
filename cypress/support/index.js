@@ -23,4 +23,4 @@ import './commands'
 
 
 //coverage reporting support
-import '@cypress/code-coverage/support'
+import '@cypress/code-coverage/support';

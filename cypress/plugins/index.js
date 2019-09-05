@@ -18,5 +18,5 @@ module.exports = (on, config) => {
 
 // cypress/plugins/index.js
 module.exports = (on, config) => {
-  on('task', require('@cypress/code-coverage/task'))
+  on('task', require('@cypress/code-coverage/task'));
 }
