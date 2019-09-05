@@ -1,8 +1,8 @@
-const baseUrl='http://localhost:3000/'
+const baseUrl='http://localhost:3030/'
 
 describe('Home',()=>{
     it('should be valid',()=>{
-    cy.visit(baseUrl);
-    cy.contains('Welcome');
+    cy.visit('http://google.com');
+    cy.contains('Google');
     });
 });
