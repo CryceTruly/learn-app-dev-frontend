@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build && next export",
     "e2e": "cypress open",
-    "start": "serve ./out"
+    "start": "serve ./out",
+    "test": "start-server-and-test dev http://localhost:3000 e2e"
+ 
   },
   "dependencies": {
     "coveralls": "^3.0.6",
