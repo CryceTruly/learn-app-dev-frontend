@@ -24,20 +24,32 @@ export default class NavBar extends React.Component {
   }
   render() {
     return (
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">makethatapp</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <Link href="/"> Home</Link>
-              </NavItem>
-              <NavItem>
-                <Link href="/lessons">Lessons</Link>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
+      
+      <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+       
+          <a className="navbar-brand" href="/">
+            <img src="../static/img/logo.png" width={30} /> makethatapp
+          </a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon" />
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+               <Link href='/'>
+                 <a  className='nav-link text-dark'>Home</a>
+               </Link>
+              </li>
+              <li className="nav-item">
+               <Link href='/lessons' >
+                 <a className='nav-link text-dark'>Lessons
+                 </a>
+               </Link>
+              </li>
+            </ul>
+       
+        </div>
+      </nav>
     );
   }
 }
