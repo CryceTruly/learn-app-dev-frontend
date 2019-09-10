@@ -1,13 +1,12 @@
 import React from 'react'
-import Head from 'next/head'
+import NavBar from '../components/Navbar';
 
 const Home = () => ( 
-<div>
-  <Head>
-  <title> Home </title> 
-  </Head> 
-  <p> Welcome to App </p>
-  </div>
+  <div>
+<NavBar/>
+    <h1>Hello</h1>
+  
+</div>
 )
 
 export default Home
