@@ -36,8 +36,8 @@ const Home = () => (
     <div className="video-section">
       <div className="row">
         <div className="col">
-        <div class="embed-responsive embed-responsive-16by9">
-  <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/eu0DVe7RkiY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div className="embed-responsive embed-responsive-16by9">
+  <iframe  className="embed-responsive-item" src="https://www.youtube.com/embed/eu0DVe7RkiY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
         </div>
 
@@ -46,10 +46,10 @@ const Home = () => (
           <p>We have put together great content to help you deliver the best quality out of your App.</p>
           <div className="row">
             <div className="col">
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Series</a></p>
+            <p><a className="btn btn-lg btn-primary" href="#" role="button">Series</a></p>
             </div>
             <div className="col">
-            <span><a class="btn btn-lg btn-info" href="#" role="button">Lessons</a></span>
+            <span><a className="btn btn-lg btn-info" href="#" role="button">Lessons</a></span>
           
               </div>
           </div>
