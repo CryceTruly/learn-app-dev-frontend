@@ -24,7 +24,7 @@
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "serve": "^11.1.0",
-    "start-server-and-test": "^1.10.2"
+    "start-server-and-test": "^1.10.3"
   },
   "devDependencies": {
     "next-compose": "^0.0.2"
