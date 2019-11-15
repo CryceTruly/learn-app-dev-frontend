@@ -858,10 +858,10 @@
     lodash.clonedeep "4.5.0"
     watchify "3.11.1"
 
-"@cypress/code-coverage@^1.10.1":
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/@cypress/code-coverage/-/code-coverage-1.10.1.tgz#2a20e746cfb0f3a3866c1a6f4c2010cd79a4fde0"
-  integrity sha512-evvE7s+Bnsq9p1FK4jd+oqx4nBW1L01txrmdaL/+NQCT3WnH9OWPsciMJOAD5m0amNu1ccIlIj/cXPRDhwfVqQ==
+"@cypress/code-coverage@^1.10.2":
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@cypress/code-coverage/-/code-coverage-1.10.2.tgz#b7561ca5858ae7f4767cc4ce38fe675e45edffbd"
+  integrity sha512-OCX04NeTUp8tZHxakxPNgAt1Lhod8o8lsbL8yUyNIdg97qAktJ1hSfIcVTEepeEl3cWguvKrORc3XwPTurT9QQ==
   dependencies:
     "@cypress/browserify-preprocessor" "2.1.1"
     debug "4.1.1"
