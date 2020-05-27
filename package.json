@@ -10,7 +10,7 @@
     "coverage": "nyc yarn run test"
   },
   "dependencies": {
-    "@cypress/code-coverage": "^1.10.1",
+    "@cypress/code-coverage": "^3.7.6",
     "@zeit/next-css": "^1.0.1",
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
